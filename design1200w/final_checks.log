@@ -1,0 +1,109 @@
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/Product1/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/Product4/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS1/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS1/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS10/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS10/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS2/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS2/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS3/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS3/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS4/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS4/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS6/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS6/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS8/RMS
+Measurement/Harmonic RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+[Warning: Overriding parameters of 'DWPT_250k_60V_1200W/RMS8/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In finalize_model (line 5)
+In run (line 100)] 
+Updated display buffers, compiled the model, confirmed 4 TX + 4 RX MOSFETs; Code Analyzer clean.

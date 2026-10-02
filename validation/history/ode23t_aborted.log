@@ -1,0 +1,110 @@
+[Warning: Using find_system without the 'Variants' argument skips inactive
+Variant Subsystem blocks in the search. This behavior will change in a future
+release to look at all choices of the Variant Subsystem. To find blocks that
+are active in simulation or code generation, compile the model and use the
+built-in variant filters with the 'MatchFilter' option. To find all blocks use
+filter '@Simulink.match.allVariants' with the 'MatchFilter' option.] 
+[> In repair_dwpt (line 61)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Product1/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Product4/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS1/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS10/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS2/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS3/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS4/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS6/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS8/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+[Warning: Block diagram 'DWPT_fixed' contains disabled library links. Use Model
+Advisor to find the disabled links in non-library models.  The diagram has been
+saved but may not contain what you intended.
+Suggested Actions:
+    • You can restore or push the disabled links in the model using the Library
+    Link Tool. - Open
+] 
+Saved and compiled /Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/DWPT_fixed.slx
+dwpt_parameters.m: 0 code analyzer findings
+repair_dwpt.m: 0 code analyzer findings
+run_dwpt.m: 0 code analyzer findings
+validate_dwpt.m: 1 code analyzer findings
+         id: 'NOCOMMA'
+    message: 'Extra comma is unnecessary.'
+        fix: 1
+       line: 34
+     column: [4 4]
+

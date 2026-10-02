@@ -1,0 +1,37 @@
+                      wall_seconds: 10.5505
+                          window_s: [8.0000e-05 1.0000e-04]
+                            cycles: 5
+                      Vload_mean_V: 22.1458
+                      Iload_mean_A: 0.7382
+                           Pload_W: 16.3967
+                             Pin_W: -225.1993
+                efficiency_percent: 7.3844e+18
+                 rectifier_input_W: 2.2398e+03
+                rectifier_output_W: 2.0572e+03
+                  rectifier_loss_W: 182.6583
+              Vload_peak_to_peak_V: 3.9173
+          maximum_output_voltage_V: 24.1266
+              target_error_percent: -63.0903
+                        modulation: 0
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 53.0710
+          tx_coil_current_peak_all: 134.4193
+              tx_input_current_rms: 194.0121
+         tx_input_current_peak_all: 537.0513
+               rect_ac_current_rms: 106.0346
+          rect_ac_current_peak_all: 278.5095
+                   cp1_voltage_rms: 3.8239e+03
+              cp1_voltage_peak_all: 9.6238e+03
+                   ct1_voltage_rms: 2.8580e+03
+              ct1_voltage_peak_all: 7.7873e+03
+                    cs_voltage_rms: 8.2899e+03
+               cs_voltage_peak_all: 2.1220e+04
+               tx_coil_voltage_rms: 4.3776e+03
+          tx_coil_voltage_peak_all: 1.0957e+04
+               rx_coil_voltage_rms: 8.2900e+03
+          rx_coil_voltage_peak_all: 2.1221e+04
+         comp_inductor_voltage_rms: 2.8578e+03
+    comp_inductor_voltage_peak_all: 7.7866e+03
+
+Peak current 537.05126 A at 7.99e-06 s, initial 7.6898631e-08 A

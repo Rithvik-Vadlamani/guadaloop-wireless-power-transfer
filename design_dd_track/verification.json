@@ -1,0 +1,17 @@
+{
+  "result": "PASS within declared simulation assumptions",
+  "native_rated_cases": [
+    "center",
+    "seam",
+    "loss_worst",
+    "voltage_worst",
+    "middle_seam",
+    "last_seam"
+  ],
+  "gate_overlap": false,
+  "zero_coupling_output_V": 0,
+  "entry_edge_is_voltage_limited": true,
+  "refinement_pass": true,
+  "hardware_efficiency_verified": false,
+  "maximum_travel_speed_specified": false
+}

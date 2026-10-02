@@ -1,0 +1,20 @@
+[
+  {
+    "speed_m_s": 1.0,
+    "duration_s": 2.7432,
+    "Vmin": 59.97620093434651,
+    "Vmax": 60.03019543956136,
+    "max_error_percent": 0.0503257326022677,
+    "nfev": 28497,
+    "model": "Quasi-steady fundamental network plus output capacitor and PI; not switching or full resonant transient"
+  },
+  {
+    "speed_m_s": 10.0,
+    "duration_s": 0.27432,
+    "Vmin": 59.92927125223357,
+    "Vmax": 60.07513219558893,
+    "max_error_percent": 0.1252203259815469,
+    "nfev": 17049,
+    "model": "Quasi-steady fundamental network plus output capacitor and PI; not switching or full resonant transient"
+  }
+]

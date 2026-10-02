@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "DD_loops_per_pad": 6,
+  "reciprocity_error_H": 4.235164736271502e-22,
+  "minimum_inductance_matrix_eigenvalue_H": 1.7255472189255005e-05,
+  "circle_benchmark_relative_error": 1.3518785098476371e-05,
+  "LCC_resonance_identities": true
+}

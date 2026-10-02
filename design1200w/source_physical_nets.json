@@ -1,0 +1,433 @@
+[
+  [
+    {
+      "block": "Mosfet6",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "V M",
+      "side": "lconn",
+      "index": 2
+    },
+    {
+      "block": "Solver Configuration1",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "DC Voltage Source",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Source reference",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet3",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet2",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet7",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "V M5",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Io2",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Idc",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "DC Voltage Source",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "V M",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "V M3",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Universal Bridge",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Is2",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Io6",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Is2",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Mosfet5",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Idc",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet1",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet4",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Io6",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Cs",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Mosfet1",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet3",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "CT1",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "M",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "V M5",
+      "side": "lconn",
+      "index": 2
+    }
+  ],
+  [
+    {
+      "block": "M",
+      "side": "lconn",
+      "index": 3
+    },
+    {
+      "block": "Cs",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "LT1",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "V M1",
+      "side": "lconn",
+      "index": 2
+    },
+    {
+      "block": "Io2",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Io1",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "CT1",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Cp1",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Io1",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "V M1",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "LT1",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Universal Bridge",
+      "side": "lconn",
+      "index": 2
+    },
+    {
+      "block": "M",
+      "side": "rconn",
+      "index": 3
+    },
+    {
+      "block": "V M3",
+      "side": "lconn",
+      "index": 2
+    }
+  ],
+  [
+    {
+      "block": "Uo2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "R4",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Io4",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Io3",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Io4",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "R4",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Uo2",
+      "side": "lconn",
+      "index": 2
+    },
+    {
+      "block": "Universal Bridge",
+      "side": "rconn",
+      "index": 2
+    },
+    {
+      "block": "Cd2",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Receiver reference",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Cd2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Io3",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Universal Bridge",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "CT2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "CP2",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "LT2",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "CP2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "M",
+      "side": "lconn",
+      "index": 2
+    }
+  ],
+  [
+    {
+      "block": "M",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Cp1",
+      "side": "lconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "V M2",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Io5",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "LT2",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Mosfet6",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Io5",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet4",
+      "side": "rconn",
+      "index": 1
+    }
+  ],
+  [
+    {
+      "block": "Mosfet7",
+      "side": "lconn",
+      "index": 1
+    },
+    {
+      "block": "V M2",
+      "side": "lconn",
+      "index": 2
+    },
+    {
+      "block": "M",
+      "side": "rconn",
+      "index": 2
+    },
+    {
+      "block": "CT2",
+      "side": "rconn",
+      "index": 1
+    },
+    {
+      "block": "Mosfet5",
+      "side": "rconn",
+      "index": 1
+    }
+  ]
+]

@@ -1,0 +1,68 @@
+Saved and compiled /Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/DWPT_fixed.slx
+[Warning: The specified buffer for 'DWPT_fixed/RMS8/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS2/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS3/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS10/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS1/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS4/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+[Warning: The specified buffer for 'DWPT_fixed/RMS6/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+was too small. During simulation, the buffer size was temporarily increased to
+80896. In order to generate code, you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+                        window_s: [0.0040 0.0050]
+                          cycles: 85
+                    Vload_mean_V: 8.6503
+                     Vload_rms_V: 8.6623
+                    Iload_mean_A: 0.2883
+                           Pin_W: 21.7336
+                         Pload_W: 2.5012
+    load_identity_relative_error: 1.7755e-16
+              efficiency_percent: 11.5084
+            Vload_peak_to_peak_V: 1.5846
+

@@ -1,0 +1,528 @@
+[Warning: The model may not give enough information to make it possible to solve
+for values of some of its variables. Specific advice is given below.
+
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+Sensor','DWPT_fixed/Io3/Current Sensor','DWPT_fixed/Io4/Current
+Sensor','DWPT_fixed/Io4/Current Sensor','DWPT_fixed/Io6/Current
+Sensor','DWPT_fixed/Io6/Current Sensor','DWPT_fixed/Is2/Current
+Sensor','DWPT_fixed/Is2/Current Sensor','DWPT_fixed/Uo2/Voltage
+Sensor','DWPT_fixed/Uo2/Voltage Sensor','DWPT_fixed/V M3/Voltage
+Sensor','DWPT_fixed/V M3/Voltage Sensor','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+Bridge/Diode3','DWPT_fixed/Universal
+Bridge/Diode3','DWPT_fixed/R4/Resistor','DWPT_fixed/R4/Resistor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2','DWPT_fixed/Cd2','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs','DWPT_fixed/Cs','DWPT_fixed/Io3','DWPT_fixed/Io3','DWPT_fixed/Io4','DWPT_fixed/Io4','DWPT_fixed/Io6','DWPT_fixed/Io6','DWPT_fixed/Is2','DWPT_fixed/Is2','DWPT_fixed/M','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M','DWPT_fixed/R4','DWPT_fixed/R4','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Universal Bridge','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Uo2','DWPT_fixed/Uo2','DWPT_fixed/V M3','DWPT_fixed/V M3'},
+{'n','p','n','p','n','p','n','p','n','p','n','p','N1','N2','n','p','n','p','n','p','n','p','x0','x1','n','p','n','p','n','p','x0','x1','x0','x1','x0','x1','x0','x1','x0','x1','C','N1','N2','c1','c2','N','c','N','c','c','x0','x1','A','B','x0','x1','x0','x1','x0','x1'},
+true)">all components and nodal across variables involved</a>
+Tie variable <a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.N2.V(3)'</a> (V) to a definite value, for
+example by connecting an appropriate domain reference block.
+
+
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/V
+M3/Voltage Sensor','DWPT_fixed/V M3/PS-Simulink
+Converter','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode3','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Universal Bridge/Diode3','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode1','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Io3/Current
+Sensor','DWPT_fixed/Io3/Current Sensor','DWPT_fixed/Io4/Current
+Sensor','DWPT_fixed/Io4/Current Sensor','DWPT_fixed/Io6/Current
+Sensor','DWPT_fixed/Io6/Current Sensor','DWPT_fixed/Is2/Current
+Sensor','DWPT_fixed/Is2/Current Sensor','DWPT_fixed/Uo2/Voltage
+Sensor','DWPT_fixed/Uo2/Voltage Sensor','DWPT_fixed/V M3/Voltage
+Sensor','DWPT_fixed/V M3/Voltage Sensor','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+Bridge/Diode3','DWPT_fixed/Universal
+Bridge/Diode3','DWPT_fixed/R4/Resistor','DWPT_fixed/R4/Resistor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2','DWPT_fixed/Cd2','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs','DWPT_fixed/Cs','DWPT_fixed/Io3','DWPT_fixed/Io3','DWPT_fixed/Io4','DWPT_fixed/Io4','DWPT_fixed/Io6','DWPT_fixed/Io6','DWPT_fixed/Is2','DWPT_fixed/Is2','DWPT_fixed/M','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/M','DWPT_fixed/R4','DWPT_fixed/R4','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Universal Bridge','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Universal
+Bridge','DWPT_fixed/Uo2','DWPT_fixed/Uo2','DWPT_fixed/V M3','DWPT_fixed/V M3'},
+{'','','','','','','','','','','','','','','','','','','','','','','n','p','n','p','n','p','n','p','n','p','n','p','N1','N2','n','p','n','p','n','p','n','p','x0','x1','n','p','n','p','n','p','x0','x1','x0','x1','x0','x1','x0','x1','x0','x1','C','N1','N2','c1','c2','N','c','N','c','c','x0','x1','A','B','x0','x1','x0','x1','x0','x1'},
+true)">all components and nodal across variables involved</a>
+Cannot solve for one or more variables, including dynamic variable derivatives:
+Time derivative of <a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.i_La'</a> (Line a inductor
+current)
+Time derivative of <a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.i_Lc'</a> (Line c inductor
+current)
+Time derivative of <a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+{''})">'Cd2.Capacitor.vc'</a> (Capacitor voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+Sensor'}, {''})">'Io3.Current_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+Sensor'}, {''})">'Io3.Current_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4/Current
+Sensor'}, {''})">'Io4.Current_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4/Current
+Sensor'}, {''})">'Io4.Current_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6/Current
+Sensor'}, {''})">'Io6.Current_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6/Current
+Sensor'}, {''})">'Io6.Current_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2/Current
+Sensor'}, {''})">'Is2.Current_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2/Current
+Sensor'}, {''})">'Is2.Current_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2/Voltage
+Sensor'}, {''})">'Uo2.Voltage_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2/Voltage
+Sensor'}, {''})">'Uo2.Voltage_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+Sensor'}, {''})">'V_M3.Voltage_Sensor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+Sensor'}, {''})">'V_M3.Voltage_Sensor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+Sensor'}, {''})">'V_M3.Voltage_Sensor.V'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V
+M3/PS-Simulink
+Converter'}, {''})">'V_M3.Voltage_Sensor_V0'</a> (Voltage_Sensor_V0)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.i_c'</a> (i_c)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.i'</a> (Current)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.i'</a> (Current)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.V(1)'</a> (Line voltages)] 
+[<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.V(3)'</a> (Line voltages)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+{''})">'Cd2.Capacitor.i'</a> (Current)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.i'</a> (Current)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.i'</a> (Current)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.va'</a> (Line a voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.vc'</a> (Line c voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.N1.V(3)'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.coupled_lines.N2.V(3)'</a> (V)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+{''})">'Cd2.Capacitor.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.va'</a> (Line a voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.vc'</a> (Line c voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4/Resistor'},
+{''})">'R4.Resistor.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4/Resistor'},
+{''})">'R4.Resistor.p.v'</a> (Voltage)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+{''})">'Cd2.Capacitor.n.v'</a> (Voltage)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+{''})">'Cd2.Capacitor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2'},
+{''})">'Cd2.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2'},
+{''})">'Cd2.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.n.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.p.v'</a> (Voltage)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs/Capacitor'},
+{''})">'Cs.Capacitor.n.v'</a> (Voltage)
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs/Capacitor'},
+{''})">'Cs.Capacitor.p.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs'},
+{''})">'Cs.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs'},
+{''})">'Cs.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3'},
+{''})">'Io3.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3'},
+{''})">'Io3.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4'},
+{''})">'Io4.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4'},
+{''})">'Io4.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6'},
+{''})">'Io6.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6'},
+{''})">'Io6.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2'},
+{''})">'Is2.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2'},
+{''})">'Is2.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M'},
+{''})">'M.C.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.N1.V(3)'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.N2.V(3)'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.c1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.c2.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.phase_splitter1.N.V(3)'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.phase_splitter1.c.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.N.V(3)'</a> (V)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.c.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M'},
+{''})">'M.c.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4'},
+{''})">'R4.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4'},
+{''})">'R4.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge'}, {''})">'Universal_Bridge.A.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge'}, {''})">'Universal_Bridge.B.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge'}, {''})">'Universal_Bridge.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+Bridge'}, {''})">'Universal_Bridge.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2'},
+{''})">'Uo2.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2'},
+{''})">'Uo2.x1.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3'},
+{''})">'V_M3.x0.v'</a> (Voltage)
+<a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3'},
+{''})">'V_M3.x1.v'</a> (Voltage)
+
+
+Problems possible for transient initialization, as well as stepsize control for
+transient solve, due to equations of one or more components:
+<a
+href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor','DWPT_fixed/M/Coupled
+Lines','DWPT_fixed/Universal Bridge/Diode1','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Is2/Current
+Sensor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+Bridge/Diode1','DWPT_fixed/Universal Bridge/Diode1'},] 
+[{'','','','','n','n','p','n','p','n','p'}, true)">all components involved</a>
+<a href="matlab:simscape.intern] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt (line 29)] 
+{Error using run_dwpt (line 29)
+['DWPT_fixed/Solver Configuration1']: Failed to update switched linear model,
+due to system singularity in current configuration.
+Caused by:
+    Error using Simulink.Simulation.internal.DesktopSimHelper
+    The model may not give enough information to make it possible to solve for
+    values of some of its variables. Specific advice is given below.
+
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+    Sensor','DWPT_fixed/Io3/Current Sensor','DWPT_fixed/Io4/Current
+    Sensor','DWPT_fixed/Io4/Current Sensor','DWPT_fixed/Io6/Current
+    Sensor','DWPT_fixed/Io6/Current Sensor','DWPT_fixed/Is2/Current
+    Sensor','DWPT_fixed/Is2/Current Sensor','DWPT_fixed/Uo2/Voltage
+    Sensor','DWPT_fixed/Uo2/Voltage Sensor','DWPT_fixed/V M3/Voltage
+    Sensor','DWPT_fixed/V M3/Voltage Sensor','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+    Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+    Bridge/Diode3','DWPT_fixed/Universal
+    Bridge/Diode3','DWPT_fixed/R4/Resistor','DWPT_fixed/R4/Resistor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2','DWPT_fixed/Cd2','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs','DWPT_fixed/Cs','DWPT_fixed/Io3','DWPT_fixed/Io3','DWPT_fixed/Io4','DWPT_fixed/Io4','DWPT_fixed/Io6','DWPT_fixed/Io6','DWPT_fixed/Is2','DWPT_fixed/Is2','DWPT_fixed/M','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M','DWPT_fixed/R4','DWPT_fixed/R4','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Universal Bridge','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Uo2','DWPT_fixed/Uo2','DWPT_fixed/V M3','DWPT_fixed/V M3'},
+    {'n','p','n','p','n','p','n','p','n','p','n','p','N1','N2','n','p','n','p','n','p','n','p','x0','x1','n','p','n','p','n','p','x0','x1','x0','x1','x0','x1','x0','x1','x0','x1','C','N1','N2','c1','c2','N','c','N','c','c','x0','x1','A','B','x0','x1','x0','x1','x0','x1'},
+    true)">all components and nodal across variables involved</a>
+    Tie variable <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.N2.V(3)'</a> (V) to a definite value, for
+    example by connecting an appropriate domain reference block.
+
+
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/V
+    M3/Voltage Sensor','DWPT_fixed/V M3/PS-Simulink
+    Converter','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+    Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode3','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Universal Bridge/Diode3','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode1','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Io3/Current
+    Sensor','DWPT_fixed/Io3/Current Sensor','DWPT_fixed/Io4/Current
+    Sensor','DWPT_fixed/Io4/Current Sensor','DWPT_fixed/Io6/Current
+    Sensor','DWPT_fixed/Io6/Current Sensor','DWPT_fixed/Is2/Current
+    Sensor','DWPT_fixed/Is2/Current Sensor','DWPT_fixed/Uo2/Voltage
+    Sensor','DWPT_fixed/Uo2/Voltage Sensor','DWPT_fixed/V M3/Voltage
+    Sensor','DWPT_fixed/V M3/Voltage Sensor','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/Universal
+    Bridge/Diode4','DWPT_fixed/Universal Bridge/Diode4','DWPT_fixed/Universal
+    Bridge/Diode3','DWPT_fixed/Universal
+    Bridge/Diode3','DWPT_fixed/R4/Resistor','DWPT_fixed/R4/Resistor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2','DWPT_fixed/Cd2','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs/Capacitor','DWPT_fixed/Cs','DWPT_fixed/Cs','DWPT_fixed/Io3','DWPT_fixed/Io3','DWPT_fixed/Io4','DWPT_fixed/Io4','DWPT_fixed/Io6','DWPT_fixed/Io6','DWPT_fixed/Is2','DWPT_fixed/Is2','DWPT_fixed/M','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/M','DWPT_fixed/R4','DWPT_fixed/R4','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Universal Bridge','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Universal
+    Bridge','DWPT_fixed/Uo2','DWPT_fixed/Uo2','DWPT_fixed/V M3','DWPT_fixed/V M3'},
+    {'','','','','','','','','','','','','','','','','','','','','','','n','p','n','p','n','p','n','p','n','p','n','p','N1','N2','n','p','n','p','n','p','n','p','x0','x1','n','p','n','p','n','p','x0','x1','x0','x1','x0','x1','x0','x1','x0','x1','C','N1','N2','c1','c2','N','c','N','c','c','x0','x1','A','B','x0','x1','x0','x1','x0','x1'},
+    true)">all components and nodal across variables involved</a>
+    Cannot solve for one or more variables, including dynamic variable derivatives:
+    Time derivative of <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.i_La'</a> (Line a inductor
+    current)
+    Time derivative of <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.i_Lc'</a> (Line c inductor
+    current)
+    Time derivative of <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+    {''})">'Cd2.Capacitor.vc'</a> (Capacitor voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+    Sensor'}, {''})">'Io3.Current_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3/Current
+    Sensor'}, {''})">'Io3.Current_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4/Current
+    Sensor'}, {''})">'Io4.Current_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4/Current
+    Sensor'}, {''})">'Io4.Current_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6/Current
+    Sensor'}, {''})">'Io6.Current_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6/Current
+    Sensor'}, {''})">'Io6.Current_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2/Current
+    Sensor'}, {''})">'Is2.Current_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2/Current
+    Sensor'}, {''})">'Is2.Current_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2/Voltage
+    Sensor'}, {''})">'Uo2.Voltage_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2/Voltage
+    Sensor'}, {''})">'Uo2.Voltage_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+    Sensor'}, {''})">'V_M3.Voltage_Sensor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+    Sensor'}, {''})">'V_M3.Voltage_Sensor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3/Voltage
+    Sensor'}, {''})">'V_M3.Voltage_Sensor.V'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V
+    M3/PS-Simulink
+    Converter'}, {''})">'V_M3.Voltage_Sensor_V0'</a> (Voltage_Sensor_V0)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.i_c'</a> (i_c)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.i'</a> (Current)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.i'</a> (Current)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.V(1)'</a> (Line voltages)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.V(3)'</a> (Line voltages)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+    {''})">'Cd2.Capacitor.i'</a> (Current)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.i'</a> (Current)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.i'</a> (Current)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.va'</a> (Line a voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.vc'</a> (Line c voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.N1.V(3)'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.coupled_lines.N2.V(3)'</a> (V)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+    {''})">'Cd2.Capacitor.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode4'}, {''})">'Universal_Bridge.Diode4.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode3'}, {''})">'Universal_Bridge.Diode3.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.va'</a> (Line a voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.vc'</a> (Line c voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4/Resistor'},
+    {''})">'R4.Resistor.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4/Resistor'},
+    {''})">'R4.Resistor.p.v'</a> (Voltage)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+    {''})">'Cd2.Capacitor.n.v'</a> (Voltage)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor'},
+    {''})">'Cd2.Capacitor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2'},
+    {''})">'Cd2.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2'},
+    {''})">'Cd2.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode2'}, {''})">'Universal_Bridge.Diode2.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.n.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge/Diode1'}, {''})">'Universal_Bridge.Diode1.p.v'</a> (Voltage)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs/Capacitor'},
+    {''})">'Cs.Capacitor.n.v'</a> (Voltage)
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs/Capacitor'},
+    {''})">'Cs.Capacitor.p.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs'},
+    {''})">'Cs.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cs'},
+    {''})">'Cs.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3'},
+    {''})">'Io3.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io3'},
+    {''})">'Io3.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4'},
+    {''})">'Io4.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io4'},
+    {''})">'Io4.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6'},
+    {''})">'Io6.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Io6'},
+    {''})">'Io6.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2'},
+    {''})">'Is2.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Is2'},
+    {''})">'Is2.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M'},
+    {''})">'M.C.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.N1.V(3)'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.N2.V(3)'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.c1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.c2.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.phase_splitter1.N.V(3)'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.phase_splitter1.c.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.N.V(3)'</a> (V)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M/Coupled
+    Lines'}, {''})">'M.Coupled_Lines.phase_splitter2.c.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/M'},
+    {''})">'M.c.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4'},
+    {''})">'R4.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/R4'},
+    {''})">'R4.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge'}, {''})">'Universal_Bridge.A.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge'}, {''})">'Universal_Bridge.B.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge'}, {''})">'Universal_Bridge.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Universal
+    Bridge'}, {''})">'Universal_Bridge.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2'},
+    {''})">'Uo2.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Uo2'},
+    {''})">'Uo2.x1.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3'},
+    {''})">'V_M3.x0.v'</a> (Voltage)
+    <a href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/V M3'},
+    {''})">'V_M3.x1.v'</a> (Voltage)
+
+
+    Problems possible for transient initialization, as well as stepsize control for
+    transient solve, due to equations of one or more components:
+    <a
+    href="matlab:simscape.internal.highlightSLStudio({'DWPT_fixed/Cd2/Capacitor','DWPT_fixed/M/Coupled
+    Lines','DWPT_fixed/Universal Bridge/Diode1','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Is2/Current
+    Sensor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Cd2/Capacitor','DWPT_fixed/Universal
+    Bridge/Diode2','DWPT_fixed/Universal Bridge/Diode2','DWPT_fixed/Universal
+    Bridge/Diode1','DWPT_fixed/Universal Bridge/Diode1'},
+    {'','','','','n','n','p','n','p','n','p'}, true)"... (Truncated error message
+    at maximum length of buffer.) - Show complete stack trace
+} 

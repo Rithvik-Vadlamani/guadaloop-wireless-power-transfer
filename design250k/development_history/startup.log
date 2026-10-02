@@ -1,0 +1,58 @@
+Saved and compiled DWPT_250k_60V
+[Warning: Square root of a negative number in 'DWPT_250k_60V/RMS3/RMS
+Measurement/Total RMS/Sqrt'. Consider setting the 'Output signal type' to
+complex.] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt250k (line 42)] 
+[Warning: Square root of a negative number in 'DWPT_250k_60V/RMS1/RMS
+Measurement/Total RMS/Sqrt'. Consider setting the 'Output signal type' to
+complex.] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt250k (line 42)] 
+[Warning: Square root of a negative number in 'DWPT_250k_60V/RMS4/RMS
+Measurement/Total RMS/Sqrt'. Consider setting the 'Output signal type' to
+complex.] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt250k (line 42)] 
+                      wall_seconds: 51.0091
+                          window_s: [0.0146 0.0150]
+                            cycles: 100
+                      Vload_mean_V: 59.9993
+                      Iload_mean_A: 2.0000
+                           Pload_W: 119.9974
+                             Pin_W: 123.8905
+                efficiency_percent: 96.8576
+                 rectifier_input_W: 120.4699
+                rectifier_output_W: 120.3611
+                  rectifier_loss_W: 0.1088
+              Vload_peak_to_peak_V: 0.0082
+          maximum_output_voltage_V: 60.7169
+              target_error_percent: -0.0011
+                        modulation: 0.9343
+      load_identity_relative_error: 1.1843e-16
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.7769
+          tx_coil_current_peak_all: 134.4193
+              tx_input_current_rms: 2.9954
+         tx_input_current_peak_all: 537.0513
+               rect_ac_current_rms: 2.2396
+          rect_ac_current_peak_all: 278.5095
+                   cp1_voltage_rms: 176.7780
+              cp1_voltage_peak_all: 9.6238e+03
+                   ct1_voltage_rms: 57.9654
+              ct1_voltage_peak_all: 7.7873e+03
+                    cs_voltage_rms: 175.7349
+               cs_voltage_peak_all: 2.1220e+04
+               tx_coil_voltage_rms: 218.6808
+          tx_coil_voltage_peak_all: 1.0957e+04
+               rx_coil_voltage_rms: 181.3234
+          rx_coil_voltage_peak_all: 2.1221e+04
+         comp_inductor_voltage_rms: 46.2538
+    comp_inductor_voltage_peak_all: 7.7866e+03
+

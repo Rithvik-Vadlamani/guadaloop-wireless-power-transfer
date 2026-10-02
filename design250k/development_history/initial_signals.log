@@ -1,0 +1,19 @@
+cp1_voltage initial=-3.84503 peak=9623.85 at 4e-06
+ct1_voltage initial=-3.84503 peak=7787.28 at 7.03e-06
+cs_voltage initial=-24.4924 peak=21220.3 at 9.7e-07
+tx_coil_voltage initial=-7.69005 peak=10957.3 at 3.77e-06
+rx_coil_voltage initial=31.6625 peak=21220.7 at 9.7e-07
+tx_input_current initial=7.68986e-08 peak=537.051 at 7.99e-06
+modulation initial=0 peak=0 at 0
+   -3.8449
+   -3.8433
+   -3.8356
+   -3.8182
+   -0.0000
+   -0.0001
+   -0.0002
+   -0.0003
+   -0.0003
+   -0.0004
+
+Leg gate differences 0 0

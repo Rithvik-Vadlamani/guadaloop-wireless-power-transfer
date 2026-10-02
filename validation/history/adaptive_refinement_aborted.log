@@ -1,0 +1,115 @@
+[Warning: Overriding parameters of 'DWPT_fixed/Mean/Moving
+Average/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Mean1/Moving
+Average/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Mean2/Moving
+Average/Continuous/Transport Delay' which is inside a library link. These
+changes can be changed, propagated, or viewed using the 'Library Link' menu
+item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Product1/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/Product4/Average
+power/Continuous/Transport Delay' which is inside a library link. These changes
+can be changed, propagated, or viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS1/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS1/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS10/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS10/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS2/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS2/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS3/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS3/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS4/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS4/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS6/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS6/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS8/RMS Measurement/Harmonic
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+[Warning: Overriding parameters of 'DWPT_fixed/RMS8/RMS Measurement/Total
+RMS/Periodic Difference (Discrete or Continuous)/Continuous/Transport Delay'
+which is inside a library link. These changes can be changed, propagated, or
+viewed using the 'Library Link' menu item] 
+[> In repair_dwpt (line 62)] 
+Saved and compiled /Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/DWPT_fixed.slx
+dwpt_parameters.m: 0 code analyzer findings
+repair_dwpt.m: 0 code analyzer findings
+run_dwpt.m: 0 code analyzer findings
+validate_dwpt.m: 1 code analyzer findings
+         id: 'ALIGN'
+    message: 'This keyword might not be aligned with its matching END on line 36.'
+        fix: 0
+       line: 34
+     column: [1 3]
+
+                        window_s: [0.0040 0.0050]
+                          cycles: 85
+                    Vload_mean_V: 8.7720
+                     Vload_rms_V: 8.7844
+                    Iload_mean_A: 0.2924
+                           Pin_W: 17.0622
+                         Pload_W: 2.5722
+    load_identity_relative_error: 3.4530e-16
+              efficiency_percent: 15.0753
+            Vload_peak_to_peak_V: 1.6153
+

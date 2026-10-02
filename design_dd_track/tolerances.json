@@ -1,0 +1,44 @@
+[
+  {
+    "case": "nominal",
+    "max_required_modulation": 0.906445315585463,
+    "min_budget_efficiency": 0.948079187777136,
+    "voltage_feasible": true,
+    "efficiency_budget_pass": true
+  },
+  {
+    "case": "90V_bus",
+    "max_required_modulation": 1.0071614617616256,
+    "min_budget_efficiency": 0.948079187777136,
+    "voltage_feasible": false,
+    "efficiency_budget_pass": true
+  },
+  {
+    "case": "caps_minus_1pct",
+    "max_required_modulation": 0.9254530658117488,
+    "min_budget_efficiency": 0.948085206611596,
+    "voltage_feasible": true,
+    "efficiency_budget_pass": true
+  },
+  {
+    "case": "caps_plus_1pct",
+    "max_required_modulation": 0.9070678508956121,
+    "min_budget_efficiency": 0.9480504369868755,
+    "voltage_feasible": true,
+    "efficiency_budget_pass": true
+  },
+  {
+    "case": "Rac_plus_50pct",
+    "max_required_modulation": 0.910513894672979,
+    "min_budget_efficiency": 0.9427427359430985,
+    "voltage_feasible": true,
+    "efficiency_budget_pass": true
+  },
+  {
+    "case": "coupling_minus_20pct",
+    "max_required_modulation": 1.1312833939837919,
+    "min_budget_efficiency": 0.9469439603069232,
+    "voltage_feasible": false,
+    "efficiency_budget_pass": true
+  }
+]

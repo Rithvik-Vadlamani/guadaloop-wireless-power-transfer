@@ -1,0 +1,37 @@
+Saved and compiled DWPT_250k_60V
+                      wall_seconds: 5.7100
+                          window_s: [8.0000e-04 1.0000e-03]
+                            cycles: 50
+                      Vload_mean_V: 4.3873
+                      Iload_mean_A: 0.1462
+                           Pload_W: 0.6541
+                             Pin_W: 32.0659
+                efficiency_percent: 2.0400
+                 rectifier_input_W: 22.9070
+                rectifier_output_W: 22.2480
+                  rectifier_loss_W: 0.6590
+              Vload_peak_to_peak_V: 2.1085
+          maximum_output_voltage_V: 5.4122
+              target_error_percent: -92.6878
+                        modulation: 0.1262
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 0.2467
+          tx_coil_current_peak_all: 0.4160
+              tx_input_current_rms: 7.4932
+         tx_input_current_peak_all: 11.3209
+               rect_ac_current_rms: 5.6721
+          rect_ac_current_peak_all: 8.3769
+                   cp1_voltage_rms: 15.7060
+              cp1_voltage_peak_all: 26.6417
+                   ct1_voltage_rms: 111.4639
+              ct1_voltage_peak_all: 164.9750
+                    cs_voltage_rms: 445.4341
+               cs_voltage_peak_all: 657.8109
+               tx_coil_voltage_rms: 112.9635
+          tx_coil_voltage_peak_all: 167.0268
+               rx_coil_voltage_rms: 445.4270
+          rx_coil_voltage_peak_all: 661.4145
+         comp_inductor_voltage_rms: 112.0658
+    comp_inductor_voltage_peak_all: 164.9809
+

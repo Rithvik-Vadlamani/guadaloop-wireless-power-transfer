@@ -1,0 +1,12 @@
+{
+  "clear_gap_m": 0.1,
+  "center_spacing_m": 0.10600000000000001,
+  "M_H": 1.8867350909334412e-06,
+  "k": 0.1908378163367059,
+  "nominal_M_H": 6.8723481080865725e-06,
+  "ratio": 0.27454009332172113,
+  "ideal_max_V_at_50V": 18.943266439198755,
+  "ideal_min_input_for_60V": 158.36761889133263,
+  "input_for_same_15percent_headroom": 182.12276172503252,
+  "Lf_for_50V_same_headroom_H": 1.3671993412561168e-06
+}

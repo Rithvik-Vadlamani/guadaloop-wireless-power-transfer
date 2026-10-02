@@ -1,0 +1,11 @@
+{
+  "all_nominal_regulated": true,
+  "all_nominal_steady": true,
+  "minimum_estimated_efficiency": 0.9501217987404555,
+  "maximum_estimated_efficiency": 0.9544060914089478,
+  "minimum_loss_margin_W": 13.599399981061651,
+  "refinement_voltage_change_percent": 0.0026659323564048876,
+  "refinement_input_change_percent": 0.09648264073629509,
+  "maximum_startup_output_V": 60.916920023502286,
+  "maximum_output_ripple_Vpp": 0.29449130924957245
+}

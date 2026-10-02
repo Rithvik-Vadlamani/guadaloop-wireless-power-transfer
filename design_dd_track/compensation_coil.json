@@ -1,0 +1,12 @@
+{
+  "turns": 5,
+  "outer_envelope_m": 0.22556635043933115,
+  "inner_opening_m": 0.09022654017573246,
+  "bundle_diameter_m": 0.009,
+  "center_pitch_m": 0.014667476282949834,
+  "wire_length_with_leads_m": 2.8801607334741974,
+  "L_H": 4.052847340537194e-06,
+  "Rdc_80C_ohm": 0.003229338685471774,
+  "Rac_80C_estimate_ohm": 0.0048440080282076605,
+  "design_Rac_limit_ohm": 0.006
+}

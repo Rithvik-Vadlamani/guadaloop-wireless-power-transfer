@@ -1,0 +1,43 @@
+Saved and compiled DWPT_250k_60V_1200W
+                      wall_seconds: 106.5697
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0024
+                      Iload_mean_A: 20.0008
+                           Pload_W: 1.2001e+03
+                             Pin_W: 1.2096e+03
+                efficiency_percent: 99.2124
+                 rectifier_input_W: 1.1855e+03
+                rectifier_output_W: 1.1826e+03
+                  rectifier_loss_W: 2.9495
+              Vload_peak_to_peak_V: 0.0571
+          maximum_output_voltage_V: 60.7741
+              target_error_percent: 0.0040
+                        modulation: 0.9031
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 5.1390
+          tx_coil_current_peak_all: 6.7425
+              tx_input_current_rms: 30.3205
+         tx_input_current_peak_all: 58.0497
+               rect_ac_current_rms: 21.9944
+          rect_ac_current_peak_all: 42.4664
+                   cp1_voltage_rms: 39.0050
+              cp1_voltage_peak_all: 59.7064
+                   ct1_voltage_rms: 237.3697
+              ct1_voltage_peak_all: 454.2227
+                    cs_voltage_rms: 341.1056
+               cs_voltage_peak_all: 652.7559
+               tx_coil_voltage_rms: 243.9351
+          tx_coil_voltage_peak_all: 458.6359
+               rx_coil_voltage_rms: 342.4876
+          rx_coil_voltage_peak_all: 712.8889
+         comp_inductor_voltage_rms: 237.5176
+    comp_inductor_voltage_peak_all: 454.2540
+                    input_energy_J: 24.7077
+                     load_energy_J: 20.0167
+      output_cap_energy_increase_J: 3.9566
+             gross_energy_margin_J: 0.7344
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 4.0000e-08
+

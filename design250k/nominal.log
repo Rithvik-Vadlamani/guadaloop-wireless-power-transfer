@@ -1,0 +1,51 @@
+Saved and compiled DWPT_250k_60V
+                 assumptions: 'Air core, identical coaxial transfer coils, 20 C copper, no nearby metal. Approximate geometry only.'
+                    transfer: [1×1 struct]
+                compensation: [1×1 struct]
+         copper_skin_depth_m: 1.3217e-04
+    gap_for_nominal_mutual_m: 0.0449
+                   gap_sweep: [1×6 struct]
+                        note: 'Gap estimates assume perfect coaxial alignment. Measure installed L, M, AC resistance and self-resonance before selecting final compensation components.'
+
+                      wall_seconds: 102.0373
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0131
+                      Iload_mean_A: 2.0004
+                           Pload_W: 120.0525
+                             Pin_W: 123.5518
+                efficiency_percent: 97.1678
+                 rectifier_input_W: 120.1609
+                rectifier_output_W: 120.0527
+                  rectifier_loss_W: 0.1082
+              Vload_peak_to_peak_V: 0.0018
+          maximum_output_voltage_V: 60.7509
+              target_error_percent: 0.0219
+                        modulation: 0.9346
+      load_identity_relative_error: 1.1837e-16
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.7771
+          tx_coil_current_peak_all: 3.9223
+              tx_input_current_rms: 2.9872
+         tx_input_current_peak_all: 7.2421
+               rect_ac_current_rms: 2.2334
+          rect_ac_current_peak_all: 5.4297
+                   cp1_voltage_rms: 176.7913
+              cp1_voltage_peak_all: 255.5088
+                   ct1_voltage_rms: 57.8737
+              ct1_voltage_peak_all: 118.6589
+                    cs_voltage_rms: 175.2454
+               cs_voltage_peak_all: 424.5037
+               tx_coil_voltage_rms: 218.6718
+          tx_coil_voltage_peak_all: 328.4331
+               rx_coil_voltage_rms: 180.8514
+          rx_coil_voltage_peak_all: 484.6267
+         comp_inductor_voltage_rms: 46.1363
+    comp_inductor_voltage_peak_all: 132.0651
+                    input_energy_J: 2.9577
+                     load_energy_J: 2.0032
+      output_cap_energy_increase_J: 0.8464
+             gross_energy_margin_J: 0.1081
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 6.0000e-08
+

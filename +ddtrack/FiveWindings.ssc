@@ -1,0 +1,40 @@
+component FiveWindings
+% Five air-core DD windings. Constant-position reciprocal inductance matrix.
+nodes
+ p1 = foundation.electrical.electrical; % TX1+
+ p2 = foundation.electrical.electrical; % TX2+
+ p3 = foundation.electrical.electrical; % TX3+
+ p4 = foundation.electrical.electrical; % TX4+
+ p5 = foundation.electrical.electrical; % RX+
+ n1 = foundation.electrical.electrical; % TX1-
+ n2 = foundation.electrical.electrical; % TX2-
+ n3 = foundation.electrical.electrical; % TX3-
+ n4 = foundation.electrical.electrical; % TX4-
+ n5 = foundation.electrical.electrical; % RX-
+end
+parameters
+ Lmat = {eye(5)*22e-6,'H'}; % Inductance matrix
+ Rw = {0.020,'Ohm'}; % Hot AC winding resistance
+end
+variables
+ i1 = {value={0,'A'},priority=priority.high};
+ i2 = {value={0,'A'},priority=priority.high};
+ i3 = {value={0,'A'},priority=priority.high};
+ i4 = {value={0,'A'},priority=priority.high};
+ i5 = {value={0,'A'},priority=priority.high};
+end
+branches
+ i1 : p1.i -> n1.i;
+ i2 : p2.i -> n2.i;
+ i3 : p3.i -> n3.i;
+ i4 : p4.i -> n4.i;
+ i5 : p5.i -> n5.i;
+end
+equations
+ [p1.v-n1.v;p2.v-n2.v;p3.v-n3.v;p4.v-n4.v;p5.v-n5.v] == Lmat*[i1.der;i2.der;i3.der;i4.der;i5.der]+Rw*[i1;i2;i3;i4;i5];
+end
+annotations
+ [p1,p2,p3,p4,p5] : Side = left;
+ [n1,n2,n3,n4,n5] : Side = right;
+end
+end

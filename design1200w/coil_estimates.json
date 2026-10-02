@@ -1,0 +1,86 @@
+{
+  "envelope_m": [
+    0.9144,
+    0.6096
+  ],
+  "clear_surface_gap_m": 0.01,
+  "assumptions": "Aligned circular air-core single-layer coils; no ferrite, chassis metal, lateral offset or parasitic capacitance. Bundle thickness estimated at 6 mm.",
+  "transfer": {
+    "turns": 5,
+    "outer_diameter_m": 0.3,
+    "inner_diameter_m": 0.2,
+    "bundle_outer_diameter_m": 0.006,
+    "strands": 2500,
+    "strand_diameter_m": 6.35E-5,
+    "inductance_H": 9.8865891842137209E-6,
+    "turn_center_radii_m": [
+      0.10300000000000001,
+      0.114,
+      0.125,
+      0.136,
+      0.147
+    ],
+    "pitch_m": 0.010999999999999996,
+    "inter_turn_clearance_m": 0.0049999999999999958,
+    "wire_length_m": 3.9269908169872414,
+    "copper_area_m2": 7.9173043608984014E-6,
+    "dc_resistance_20C_ohm": 0.0085510571021142068,
+    "wheeler_inductance_H": 9.92189484378969E-6
+  },
+  "winding_center_plane_spacing_m": 0.016,
+  "mutual_H": 6.87234810808654E-6,
+  "k": 0.69511820305630478,
+  "compensation": {
+    "turns": 5,
+    "outer_diameter_m": 0.25384352805750365,
+    "inner_diameter_m": 0.10153741122300146,
+    "bundle_outer_diameter_m": 0.006,
+    "strands": 2500,
+    "strand_diameter_m": 6.35E-5,
+    "inductance_H": 4.9799623971641826E-6,
+    "turn_center_radii_m": [
+      0.053768705611500732,
+      0.0713069702158135,
+      0.088845234820126268,
+      0.10638349942443905,
+      0.12392176402875182
+    ],
+    "pitch_m": 0.017538264604312771,
+    "inter_turn_clearance_m": 0.011538264604312771,
+    "wire_length_m": 2.7911553701736875,
+    "copper_area_m2": 7.9173043608984014E-6,
+    "dc_resistance_20C_ohm": 0.0060777654095811595,
+    "wheeler_inductance_H": 5.0173990233387437E-6
+  },
+  "transfer_AC_resistance_assumption_ohm": 0.017102114204228414,
+  "compensation_AC_resistance_assumption_ohm": 0.01,
+  "copper_skin_depth_m": 0.00013216569925642219,
+  "gap_sweep": [
+    {
+      "clear_gap_m": 0.005,
+      "mutual_H": 7.5632479300402712E-6,
+      "k": 0.76500072867564739
+    },
+    {
+      "clear_gap_m": 0.01,
+      "mutual_H": 6.87234810808654E-6,
+      "k": 0.69511820305630478
+    },
+    {
+      "clear_gap_m": 0.015,
+      "mutual_H": 6.27523671104921E-6,
+      "k": 0.63472210629213865
+    },
+    {
+      "clear_gap_m": 0.02,
+      "mutual_H": 5.7522657952885829E-6,
+      "k": 0.58182510551499766
+    },
+    {
+      "clear_gap_m": 0.03,
+      "mutual_H": 4.8793061282315418E-6,
+      "k": 0.49352775131210153
+    }
+  ],
+  "note": "Winding and coupling estimates are design inputs, not measured or FEM-validated hardware. AC resistance factor 2 is an assumption. Measure installed inductance, coupling, AC loss, self-resonance and temperature."
+}

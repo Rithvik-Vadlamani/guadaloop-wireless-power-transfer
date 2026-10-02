@@ -1,0 +1,106 @@
+{
+  "assumptions": "Air core, identical coaxial transfer coils, 20 C copper, no nearby metal. Approximate geometry only.",
+  "transfer": {
+    "turns": 22,
+    "outer_diameter_m": 0.15,
+    "inner_diameter_m": 0.05,
+    "bundle_outer_diameter_m": 0.0016,
+    "strands": 250,
+    "strand_diameter_m": 6.35E-5,
+    "inductance_H": 4.9974026147890554E-5,
+    "turn_center_radii_m": [
+      0.0258,
+      0.028104761904761903,
+      0.03040952380952381,
+      0.032714285714285717,
+      0.035019047619047616,
+      0.037323809523809523,
+      0.03962857142857143,
+      0.041933333333333336,
+      0.044238095238095236,
+      0.046542857142857143,
+      0.048847619047619042,
+      0.051152380952380949,
+      0.053457142857142856,
+      0.055761904761904763,
+      0.058066666666666669,
+      0.060371428571428576,
+      0.062676190476190469,
+      0.064980952380952375,
+      0.067285714285714282,
+      0.069590476190476189,
+      0.0718952380952381,
+      0.0742
+    ],
+    "pitch_m": 0.0023047619047619032,
+    "inter_turn_clearance_m": 0.00070476190476190313,
+    "wire_length_m": 6.911503837897544,
+    "copper_area_m2": 7.9173043608984008E-7,
+    "dc_resistance_20C_ohm": 0.15049860499721002,
+    "wheeler_inductance_H": 5.0145047658516377E-5
+  },
+  "compensation": {
+    "turns": 12,
+    "outer_diameter_m": 0.088,
+    "inner_diameter_m": 0.033,
+    "bundle_outer_diameter_m": 0.0016,
+    "strands": 250,
+    "strand_diameter_m": 6.35E-5,
+    "inductance_H": 9.46954327111659E-6,
+    "turn_center_radii_m": [
+      0.0173,
+      0.019654545454545452,
+      0.022009090909090909,
+      0.024363636363636362,
+      0.026718181818181815,
+      0.029072727272727271,
+      0.031427272727272727,
+      0.033781818181818177,
+      0.036136363636363633,
+      0.03849090909090909,
+      0.040845454545454539,
+      0.043199999999999995
+    ],
+    "pitch_m": 0.0023545454545454529,
+    "inter_turn_clearance_m": 0.00075454545454545284,
+    "wire_length_m": 2.2807962665061896,
+    "copper_area_m2": 7.9173043608984008E-7,
+    "dc_resistance_20C_ohm": 0.049664539649079305,
+    "wheeler_inductance_H": 9.5275590551181123E-6
+  },
+  "copper_skin_depth_m": 0.00013216569925642217,
+  "gap_for_nominal_mutual_m": 0.044918797165662425,
+  "gap_sweep": [
+    {
+      "gap_m": 0.01,
+      "mutual_H": 3.4953665276614758E-5,
+      "k_using_estimated_self_L": 0.69943664681278
+    },
+    {
+      "gap_m": 0.02,
+      "mutual_H": 2.5447905835915865E-5,
+      "k_using_estimated_self_L": 0.50922264619237689
+    },
+    {
+      "gap_m": 0.03,
+      "mutual_H": 1.8899231539053785E-5,
+      "k_using_estimated_self_L": 0.37818108717365245
+    },
+    {
+      "gap_m": 0.04,
+      "mutual_H": 1.4271821402048249E-5,
+      "k_using_estimated_self_L": 0.28558478277921728
+    },
+    {
+      "gap_m": 0.05,
+      "mutual_H": 1.0940120615227223E-5,
+      "k_using_estimated_self_L": 0.21891613421043152
+    },
+    {
+      "gap_m": 0.06,
+      "mutual_H": 8.5027795510381768E-6,
+      "k_using_estimated_self_L": 0.17014397691063532
+    }
+  ],
+  "note": "Gap estimates assume perfect coaxial alignment. Measure installed L, M, AC resistance and self-resonance before selecting final compensation components."
+}

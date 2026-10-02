@@ -1,0 +1,12 @@
+# Generated MATLAB compilation caches
+slprj/
+*.slxc
+*.slx.r20*
+
+# Local numerical runtime and Python caches
+design_dd_track/python_deps/
+__pycache__/
+
+# Local OS and packaging artifacts
+.DS_Store
+release-packages/

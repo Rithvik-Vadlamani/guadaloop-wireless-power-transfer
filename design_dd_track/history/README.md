@@ -1,0 +1,1 @@
+Exploratory and superseded artifacts. The authoritative final results are ../verification.json, ../final_summary.json, ../completion.log, ../qa.log and the current *_metrics.json files. The earlier decimated-power discrepancy was resolved by retaining DC bus current at every solver step.

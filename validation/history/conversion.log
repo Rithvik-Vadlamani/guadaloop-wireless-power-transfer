@@ -1,0 +1,9 @@
+A newer version of the SPS conversion assistant is available to download as an
+add-on. For more information, see the <a href="https://www.mathworks.com/help/sps/ref/spsconversionassistant.html">spsConversionAssistant</a> documentation.
+周期/Ts = 1176.4705882353 (应=100)
+Import libraries are on
+A copy of the original file "DWPT_simscape.slx" has been created because it was last saved in an earlier version of Simulink. To recover the original version, rename the file "DWPT_simscape.slx.r2025a" as "DWPT_simscape.slx".
+
+You can turn this feature off using the <a href="matlab:Simulink.internal.showprefs">Simulink Settings</a>. Click <a href="matlab:Simulink.internal.setPreferenceFlag('SimulinkShowPersistentBackupNotification', false)">here</a> if you don't want to see this message again.
+Import libraries are off
+Import completed: /Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/DWPT.slx

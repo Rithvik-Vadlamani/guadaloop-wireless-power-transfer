@@ -1,0 +1,151 @@
+                      wall_seconds: 103.2464
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0003
+                      Iload_mean_A: 2.0000
+                           Pload_W: 120.0013
+                             Pin_W: 126.7552
+                efficiency_percent: 94.6717
+                 rectifier_input_W: 123.2925
+                rectifier_output_W: 119.9929
+                  rectifier_loss_W: 3.2996
+              Vload_peak_to_peak_V: 0.0121
+          maximum_output_voltage_V: 60.7747
+              target_error_percent: 5.3979e-04
+                        modulation: 0.9570
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.8496
+          tx_coil_current_peak_all: 4.0050
+              tx_input_current_rms: 2.9895
+         tx_input_current_peak_all: 7.2479
+               rect_ac_current_rms: 2.2318
+          rect_ac_current_peak_all: 5.4443
+                   cp1_voltage_rms: 181.4007
+              cp1_voltage_peak_all: 260.7956
+                   ct1_voltage_rms: 58.8079
+              ct1_voltage_peak_all: 119.3187
+                    cs_voltage_rms: 175.1060
+               cs_voltage_peak_all: 425.4574
+               tx_coil_voltage_rms: 224.5762
+          tx_coil_voltage_peak_all: 335.3009
+               rx_coil_voltage_rms: 181.5072
+          rx_coil_voltage_peak_all: 487.2217
+         comp_inductor_voltage_rms: 46.4147
+    comp_inductor_voltage_peak_all: 138.3275
+                    input_energy_J: 3.0673
+                     load_energy_J: 2.0030
+      output_cap_energy_increase_J: 0.8461
+             gross_energy_margin_J: 0.2182
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: Inf
+
+                      wall_seconds: 191.7280
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0033
+                      Iload_mean_A: 2.0001
+                           Pload_W: 120.0131
+                             Pin_W: 123.5378
+                efficiency_percent: 97.1469
+                 rectifier_input_W: 120.1621
+                rectifier_output_W: 120.0540
+                  rectifier_loss_W: 0.1081
+              Vload_peak_to_peak_V: 0.0057
+          maximum_output_voltage_V: 60.7500
+              target_error_percent: 0.0054
+                        modulation: 0.9348
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.7765
+          tx_coil_current_peak_all: 3.9158
+              tx_input_current_rms: 2.9853
+         tx_input_current_peak_all: 7.2411
+               rect_ac_current_rms: 2.2321
+          rect_ac_current_peak_all: 5.4258
+                   cp1_voltage_rms: 176.7515
+              cp1_voltage_peak_all: 255.0985
+                   ct1_voltage_rms: 58.1373
+              ct1_voltage_peak_all: 118.8266
+                    cs_voltage_rms: 175.1426
+               cs_voltage_peak_all: 424.3455
+               tx_coil_voltage_rms: 219.0248
+          tx_coil_voltage_peak_all: 326.8611
+               rx_coil_voltage_rms: 181.2443
+          rx_coil_voltage_peak_all: 486.0621
+         comp_inductor_voltage_rms: 46.1081
+    comp_inductor_voltage_peak_all: 131.9593
+                    input_energy_J: 2.9573
+                     load_energy_J: 2.0032
+      output_cap_energy_increase_J: 0.8460
+             gross_energy_margin_J: 0.1081
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 6.0000e-08
+
+                      wall_seconds: 5.6876
+                          window_s: [8.0000e-04 1.0000e-03]
+                            cycles: 50
+                      Vload_mean_V: 3.8397e-20
+                      Iload_mean_A: 1.2799e-21
+                           Pload_W: 4.9348e-41
+                             Pin_W: 0.0413
+                efficiency_percent: 1.1963e-37
+                 rectifier_input_W: 0
+                rectifier_output_W: 8.1930e-40
+                  rectifier_loss_W: -8.1930e-40
+              Vload_peak_to_peak_V: 8.5328e-21
+          maximum_output_voltage_V: 4.2664e-20
+              target_error_percent: -100
+                        modulation: 0.1054
+      load_identity_relative_error: 4.5918e-41
+                      gate_overlap: 0
+               tx_coil_current_rms: 0.3211
+          tx_coil_current_peak_all: 0.5274
+              tx_input_current_rms: 0.1520
+         tx_input_current_peak_all: 0.4105
+               rect_ac_current_rms: 2.5644e-38
+          rect_ac_current_peak_all: 8.9072e-37
+                   cp1_voltage_rms: 20.4381
+              cp1_voltage_peak_all: 33.4053
+                   ct1_voltage_rms: 4.8376
+              ct1_voltage_peak_all: 7.6493
+                    cs_voltage_rms: 2.8291e-30
+               cs_voltage_peak_all: 2.8292e-30
+               tx_coil_voltage_rms: 25.2261
+          tx_coil_voltage_peak_all: 39.5329
+               rx_coil_voltage_rms: 0
+          rx_coil_voltage_peak_all: 8.9074e-33
+         comp_inductor_voltage_rms: 12.5307
+    comp_inductor_voltage_peak_all: 50.3009
+                    input_energy_J: 1.7522e-05
+                     load_energy_J: 2.0224e-44
+      output_cap_energy_increase_J: 4.2775e-43
+             gross_energy_margin_J: 1.7522e-05
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: Inf
+
+All 250 kHz design checks passed.
+build_dwpt250k.m
+         id: 'NOCOMMA'
+    message: 'Extra comma is unnecessary.'
+        fix: 1
+       line: 30
+     column: [8 8]
+
+run_dwpt250k.m
+dwpt250k_parameters.m
+coil_sizing250k.m
+validate_dwpt250k.m
+         id: 'ASGLU'
+    message: 'Value assigned to variable might be unused. Consider replacing the variable with ~ instead.'
+        fix: 1
+       line: 17
+     column: [22 24]
+
+plot_dwpt250k.m
+         id: 'MSNU'
+    message: 'A Code Analyzer message was once suppressed here, but the message is no longer generated.'
+        fix: 1
+       line: 38
+     column: [24 34]
+

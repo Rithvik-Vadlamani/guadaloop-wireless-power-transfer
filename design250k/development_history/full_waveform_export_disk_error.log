@@ -1,0 +1,246 @@
+                      wall_seconds: 114.9263
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0003
+                      Iload_mean_A: 2.0000
+                           Pload_W: 120.0013
+                             Pin_W: 126.7552
+                efficiency_percent: 94.6717
+                 rectifier_input_W: 123.2925
+                rectifier_output_W: 119.9929
+                  rectifier_loss_W: 3.2996
+              Vload_peak_to_peak_V: 0.0121
+          maximum_output_voltage_V: 60.7747
+              target_error_percent: 5.3979e-04
+                        modulation: 0.9570
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.8496
+          tx_coil_current_peak_all: 4.0050
+              tx_input_current_rms: 2.9895
+         tx_input_current_peak_all: 7.2479
+               rect_ac_current_rms: 2.2318
+          rect_ac_current_peak_all: 5.4443
+                   cp1_voltage_rms: 181.4007
+              cp1_voltage_peak_all: 260.7956
+                   ct1_voltage_rms: 58.8079
+              ct1_voltage_peak_all: 119.3187
+                    cs_voltage_rms: 175.1060
+               cs_voltage_peak_all: 425.4574
+               tx_coil_voltage_rms: 224.5762
+          tx_coil_voltage_peak_all: 335.3009
+               rx_coil_voltage_rms: 181.5072
+          rx_coil_voltage_peak_all: 487.2217
+         comp_inductor_voltage_rms: 46.4147
+    comp_inductor_voltage_peak_all: 138.3275
+                    input_energy_J: 3.0673
+                     load_energy_J: 2.0030
+      output_cap_energy_increase_J: 0.8461
+             gross_energy_margin_J: 0.2182
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: Inf
+
+                      wall_seconds: 212.4562
+                          window_s: [0.0296 0.0300]
+                            cycles: 100
+                      Vload_mean_V: 60.0033
+                      Iload_mean_A: 2.0001
+                           Pload_W: 120.0131
+                             Pin_W: 123.5378
+                efficiency_percent: 97.1469
+                 rectifier_input_W: 120.1621
+                rectifier_output_W: 120.0540
+                  rectifier_loss_W: 0.1081
+              Vload_peak_to_peak_V: 0.0057
+          maximum_output_voltage_V: 60.7500
+              target_error_percent: 0.0054
+                        modulation: 0.9348
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 2.7765
+          tx_coil_current_peak_all: 3.9158
+              tx_input_current_rms: 2.9853
+         tx_input_current_peak_all: 7.2411
+               rect_ac_current_rms: 2.2321
+          rect_ac_current_peak_all: 5.4258
+                   cp1_voltage_rms: 176.7515
+              cp1_voltage_peak_all: 255.0985
+                   ct1_voltage_rms: 58.1373
+              ct1_voltage_peak_all: 118.8266
+                    cs_voltage_rms: 175.1426
+               cs_voltage_peak_all: 424.3455
+               tx_coil_voltage_rms: 219.0248
+          tx_coil_voltage_peak_all: 326.8611
+               rx_coil_voltage_rms: 181.2443
+          rx_coil_voltage_peak_all: 486.0621
+         comp_inductor_voltage_rms: 46.1081
+    comp_inductor_voltage_peak_all: 131.9593
+                    input_energy_J: 2.9573
+                     load_energy_J: 2.0032
+      output_cap_energy_increase_J: 0.8460
+             gross_energy_margin_J: 0.1081
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 6.0000e-08
+
+HDF5-DIAG: Error detected in HDF5 (1.14.4-3) thread 0:
+  #000: H5D.c line 1371 in H5Dwrite(): can't synchronously write data
+    major: Dataset
+    minor: Write failed
+  #001: H5D.c line 1317 in H5D__write_api_common(): can't write data
+    major: Dataset
+    minor: Write failed
+  #002: H5VLcallback.c line 2282 in H5VL_dataset_write_direct(): dataset write failed
+    major: Virtual Object Layer
+    minor: Write failed
+  #003: H5VLcallback.c line 2237 in H5VL__dataset_write(): dataset write failed
+    major: Virtual Object Layer
+    minor: Write failed
+  #004: H5VLnative_dataset.c line 421 in H5VL__native_dataset_write(): can't write data
+    major: Dataset
+    minor: Write failed
+  #005: H5Dio.c line 826 in H5D__write(): can't write data
+    major: Dataset
+    minor: Write failed
+  #006: H5Dchunk.c line 3289 in H5D__chunk_write(): unable to read raw data chunk
+    major: Low-level I/O
+    minor: Read failed
+  #007: H5Dchunk.c line 4620 in H5D__chunk_lock(): unable to preempt chunk(s) from cache
+    major: Low-level I/O
+    minor: Unable to initialize object
+  #008: H5Dchunk.c line 4280 in H5D__chunk_cache_prune(): unable to preempt one or more raw data cache entry
+    major: Low-level I/O
+    minor: Unable to flush data from cache
+  #009: H5Dchunk.c line 4132 in H5D__chunk_cache_evict(): cannot flush indexed storage buffer
+    major: Low-level I/O
+    minor: Write failed
+  #010: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #011: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #012: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #013: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #014: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #015: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcaf854000, total write size = 62817, bytes this sub-write = 62817, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+HDF5-DIAG: Error detected in HDF5 (1.14.4-3) thread 0:
+  #000: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #001: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcbcbf0000, total write size = 62852, bytes this sub-write = 62852, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+  #002: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #003: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #004: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #005: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #006: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #007: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcafb38000, total write size = 62965, bytes this sub-write = 62965, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+  #008: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #009: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #010: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #011: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #012: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #013: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcbcbf0000, total write size = 62878, bytes this sub-write = 62878, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+  #014: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #015: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #016: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #017: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #018: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #019: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcafb38000, total write size = 62863, bytes this sub-write = 62863, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+  #020: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #021: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #022: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #023: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #024: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #025: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcbcbf0000, total write size = 62975, bytes this sub-write = 62975, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+  #026: H5Dchunk.c line 4055 in H5D__chunk_flush_entry(): unable to write raw data to file
+    major: Dataset
+    minor: Write failed
+  #027: H5Fio.c line 178 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #028: H5PB.c line 1001 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #029: H5Faccum.c line 822 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #030: H5FDint.c line 318 in H5FD_write(): driver write request failed
+    major: Virtual File Layer
+    minor: Write failed
+  #031: H5FDsec2.c line 814 in H5FD__sec2_write(): file write failed: time = Sun Sep 27 13:29:26 2026
+, filename = '/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer Guadaloop/design250k/fine_step.mat', file descriptor = 52, errno = 28, error message = 'No space left on device', buf = 0xcafb38000, total write size = 62935, bytes this sub-write = 62935, bytes actually written = 18446744073709551615, offset = 0
+    major: Low-level I/O
+    minor: Write failed
+{Error using save
+Unable to save file "/Users/rithvik/Documents/ChatGPT/Wireless Power Transfer
+Guadaloop/design250k/fine_step.mat". The file could not be closed, and might
+now be corrupt.
+
+Error in validate_dwpt250k (line 11)
+    clear out
+    ^^^^^
+} 

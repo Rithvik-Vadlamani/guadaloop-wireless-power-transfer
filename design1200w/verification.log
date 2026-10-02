@@ -1,0 +1,401 @@
+                                   envelope_m: [0.9144 0.6096]
+                          clear_surface_gap_m: 0.0100
+                                  assumptions: 'Aligned circular air-core single-layer coils; no ferrite, chassis metal, lateral offset or parasitic capacitance. Bundle thickness estimated at 6 mm.'
+                                     transfer: [1×1 struct]
+               winding_center_plane_spacing_m: 0.0160
+                                     mutual_H: 6.8723e-06
+                                            k: 0.6951
+                                 compensation: [1×1 struct]
+        transfer_AC_resistance_assumption_ohm: 0.0171
+    compensation_AC_resistance_assumption_ohm: 0.0100
+                          copper_skin_depth_m: 1.3217e-04
+                                    gap_sweep: [1×5 struct]
+                                         note: 'Winding and coupling estimates are design inputs, not measured or FEM-validated hardware. AC resistance factor 2 is an assumption. Measure installed inductance, coupling, AC loss, self-resonance and temperature.'
+
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS8/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS2/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS3/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS10/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS1/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS4/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS6/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 8)] 
+                      wall_seconds: 111.7726
+                          window_s: [0.0250 0.0300]
+                            cycles: 1250
+                      Vload_mean_V: 59.9994
+                      Iload_mean_A: 19.9998
+                           Pload_W: 1.2000e+03
+                             Pin_W: 1.2274e+03
+                efficiency_percent: 97.7685
+                 rectifier_input_W: 1.2024e+03
+                rectifier_output_W: 1.1993e+03
+                  rectifier_loss_W: 3.0354
+              Vload_peak_to_peak_V: 0.1549
+          maximum_output_voltage_V: 60.7741
+              target_error_percent: -0.0011
+                        modulation: 0.9032
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 5.1401
+          tx_coil_current_peak_all: 6.7425
+              tx_input_current_rms: 30.7552
+         tx_input_current_peak_all: 58.0497
+               rect_ac_current_rms: 22.3087
+          rect_ac_current_peak_all: 42.4664
+                   cp1_voltage_rms: 39.0120
+              cp1_voltage_peak_all: 59.7064
+                   ct1_voltage_rms: 240.7965
+              ct1_voltage_peak_all: 454.2227
+                    cs_voltage_rms: 345.9948
+               cs_voltage_peak_all: 652.7559
+               tx_coil_voltage_rms: 247.3011
+          tx_coil_voltage_peak_all: 458.6359
+               rx_coil_voltage_rms: 347.3984
+          rx_coil_voltage_peak_all: 712.8889
+         comp_inductor_voltage_rms: 240.9181
+    comp_inductor_voltage_peak_all: 454.2540
+                    input_energy_J: 24.7077
+                     load_energy_J: 20.0167
+      output_cap_energy_increase_J: 3.9566
+             gross_energy_margin_J: 0.7344
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 4.0000e-08
+           output_cap_mean_power_W: -0.6539
+         output_cap_power_fraction: 5.4494e-04
+
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS8/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS2/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS3/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS10/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS1/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS4/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS6/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 500736. In order to generate code, you
+need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+                      wall_seconds: 107.3908
+                          window_s: [0.0250 0.0300]
+                            cycles: 1250
+                      Vload_mean_V: 60.0148
+                      Iload_mean_A: 20.0049
+                           Pload_W: 1.2006e+03
+                             Pin_W: 1.2657e+03
+                efficiency_percent: 94.8588
+                 rectifier_input_W: 1.2410e+03
+                rectifier_output_W: 1.1990e+03
+                  rectifier_loss_W: 41.9229
+              Vload_peak_to_peak_V: 0.0658
+          maximum_output_voltage_V: 60.7857
+              target_error_percent: 0.0247
+                        modulation: 0.9285
+      load_identity_relative_error: 3.7877e-16
+                      gate_overlap: 0
+               tx_coil_current_rms: 5.3083
+          tx_coil_current_peak_all: 6.8405
+              tx_input_current_rms: 30.7567
+         tx_input_current_peak_all: 57.9588
+               rect_ac_current_rms: 22.3114
+          rect_ac_current_peak_all: 42.5107
+                   cp1_voltage_rms: 40.2692
+              cp1_voltage_peak_all: 60.8029
+                   ct1_voltage_rms: 240.5680
+              ct1_voltage_peak_all: 453.1165
+                    cs_voltage_rms: 345.9988
+               cs_voltage_peak_all: 651.4466
+               tx_coil_voltage_rms: 247.2629
+          tx_coil_voltage_peak_all: 456.0955
+               rx_coil_voltage_rms: 347.1211
+          rx_coil_voltage_peak_all: 713.0939
+         comp_inductor_voltage_rms: 240.9732
+    comp_inductor_voltage_peak_all: 463.2655
+                    input_energy_J: 25.7310
+                     load_energy_J: 20.0146
+      output_cap_energy_increase_J: 3.9601
+             gross_energy_margin_J: 1.7563
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: Inf
+           output_cap_mean_power_W: -1.5430
+         output_cap_power_fraction: 0.0013
+
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS8/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS2/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS3/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS10/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS1/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS4/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+[Warning: The specified buffer for 'DWPT_250k_60V_1200W/RMS6/RMS
+Measurement/Total RMS/Periodic Difference (Discrete or
+Continuous)/Continuous/Transport Delay' was too small. During simulation, the
+buffer size was temporarily increased to 1000448. In order to generate code,
+you need to update the buffer size parameter] 
+[> In Simulink.Simulation.internal.DesktopSimHelper
+In Simulink.Simulation.internal.DesktopSimHelper.sim
+In Simulink/SimulationInput/sim
+In run_dwpt1200w (line 42)
+In validate_dwpt1200w (line 20)] 
+                      wall_seconds: 216.0257
+                          window_s: [0.0250 0.0300]
+                            cycles: 1250
+                      Vload_mean_V: 59.9980
+                      Iload_mean_A: 19.9993
+                           Pload_W: 1.1999e+03
+                             Pin_W: 1.2273e+03
+                efficiency_percent: 97.7653
+                 rectifier_input_W: 1.2023e+03
+                rectifier_output_W: 1.1993e+03
+                  rectifier_loss_W: 3.0321
+              Vload_peak_to_peak_V: 0.1528
+          maximum_output_voltage_V: 60.7709
+              target_error_percent: -0.0033
+                        modulation: 0.9033
+      load_identity_relative_error: 5.6847e-16
+                      gate_overlap: 0
+               tx_coil_current_rms: 5.1397
+          tx_coil_current_peak_all: 6.6440
+              tx_input_current_rms: 30.7823
+         tx_input_current_peak_all: 57.9409
+               rect_ac_current_rms: 22.3291
+          rect_ac_current_peak_all: 42.4429
+                   cp1_voltage_rms: 39.0096
+              cp1_voltage_peak_all: 59.1251
+                   ct1_voltage_rms: 240.5181
+              ct1_voltage_peak_all: 453.1226
+                    cs_voltage_rms: 346.3161
+               cs_voltage_peak_all: 651.1891
+               tx_coil_voltage_rms: 246.5545
+          tx_coil_voltage_peak_all: 456.4760
+               rx_coil_voltage_rms: 347.0286
+          rx_coil_voltage_peak_all: 711.2935
+         comp_inductor_voltage_rms: 241.1264
+    comp_inductor_voltage_peak_all: 453.1532
+                    input_energy_J: 24.7100
+                     load_energy_J: 20.0163
+      output_cap_energy_increase_J: 3.9600
+             gross_energy_margin_J: 0.7337
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: 4.5000e-08
+           output_cap_mean_power_W: -0.6137
+         output_cap_power_fraction: 5.1146e-04
+
+                      wall_seconds: 5.0925
+                          window_s: [8.0000e-04 1.0000e-03]
+                            cycles: 50
+                      Vload_mean_V: -3.7953e-20
+                      Iload_mean_A: -1.2651e-20
+                           Pload_W: 4.8199e-40
+                             Pin_W: 0.0352
+                efficiency_percent: 1.3678e-36
+                 rectifier_input_W: -5.4592e-35
+                rectifier_output_W: 3.8809e-39
+                  rectifier_loss_W: -5.4596e-35
+              Vload_peak_to_peak_V: 8.1436e-21
+          maximum_output_voltage_V: 0
+              target_error_percent: -100
+                        modulation: 0.1036
+      load_identity_relative_error: 0
+                      gate_overlap: 0
+               tx_coil_current_rms: 0.6027
+          tx_coil_current_peak_all: 1.0203
+              tx_input_current_rms: 0.2865
+         tx_input_current_peak_all: 0.7246
+               rect_ac_current_rms: 6.1221e-20
+          rect_ac_current_peak_all: 1.3665e-19
+                   cp1_voltage_rms: 4.6474
+              cp1_voltage_peak_all: 7.7879
+                   ct1_voltage_rms: 4.7709
+              ct1_voltage_peak_all: 7.2746
+                    cs_voltage_rms: 1.0317e-15
+               cs_voltage_peak_all: 1.1610e-15
+               tx_coil_voltage_rms: 9.3840
+          tx_coil_voltage_peak_all: 14.2641
+               rx_coil_voltage_rms: 2.6857e-16
+          rx_coil_voltage_peak_all: 1.3349e-15
+         comp_inductor_voltage_rms: 12.4610
+    comp_inductor_voltage_peak_all: 50.2336
+                    input_energy_J: 1.4033e-05
+                     load_energy_J: 1.9993e-43
+      output_cap_energy_increase_J: 1.9417e-42
+             gross_energy_margin_J: 1.4033e-05
+             minimum_tx_deadtime_s: 4.0000e-08
+             minimum_sr_deadtime_s: Inf
+           output_cap_mean_power_W: 3.3989e-39
+         output_cap_power_fraction: 1.5307e-23
+
+All 250 kHz design checks passed.
